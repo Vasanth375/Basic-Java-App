@@ -11,10 +11,10 @@ public class Welcome {
         return new String("Main Page");
     }
 
-    // @GetMapping("/welcome")
-    // public String rounte() {
-    // return "Welcome to home";
-    // }
+    @GetMapping("/welcome")
+    public String rounte() {
+    return "Welcome to home";
+    }
 
     @GetMapping("/about")
     public String about_me() {
